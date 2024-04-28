@@ -1,0 +1,12 @@
+This project will open in only Netbeans IDE.
+
+DataBase Connection
+File path -- userregistration\src\java\com\isecure\DB\getConfig.java
+Here change the url, username nad passwword as per your database.
+
+Create a table name - techsoftdata in database 
+
+create table techsoftdata(id INT AUTO_INCREMENT PRIMARY KEY, name varchar(100),address varchar(200),email varchar(100),qualification varchar(200),phone varchar(15),gender varchar(15),domain varchar(100),registration_date DATE,password varchar(100)); 
+
+Server- Apcahe Tomcate 8.5
+
